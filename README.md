@@ -1,9 +1,9 @@
-# Getting Started with Create Svelte App
+# Getting Started with Create Vue App
 
-This project was bootstrapped with [Create Svelte App](https://svelte.dev/tutorial/making-an-app).
+This project was bootstrapped with [Create Vue App](https://svelte.dev/tutorial/making-an-app).
 
 ```bash
-npm create vite@latest my-app -- --template svelte
+npm init vue@latest
 ```
 
 ### `npm run dev`

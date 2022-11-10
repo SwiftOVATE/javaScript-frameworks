@@ -1,1 +1,0 @@
-<div class="motionText">HomePage</div>
