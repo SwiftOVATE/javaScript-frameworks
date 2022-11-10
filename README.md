@@ -1,9 +1,9 @@
-# Getting Started with Create React App
+# Getting Started with Create Solid App
 
-This project was bootstrapped with [Create react App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create Solid App](https://github.com/solidjs/create-solid).
 
 ```bash
-npx create-react-app my-app --template typescript
+npx degit solidjs/templates/ts solid
 ```
 
 ### `npm start`

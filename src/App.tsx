@@ -1,15 +1,16 @@
-import React from 'react';
-import './style/App.css';
+import type { Component } from 'solid-js';
+
+import styles from './styles/App.module.css';
 import { Header } from './components/Header';
 import { Home } from './pages/Home';
 
-function App() {
+const App: Component = () => {
   return (
-    <div className='App'>
+    <div class={styles.App}>
       <Header />
       <Home />
     </div>
   );
-}
+};
 
 export default App;
