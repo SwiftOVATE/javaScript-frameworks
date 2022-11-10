@@ -1,17 +1,17 @@
-# Getting Started with Create Solid App
+# Getting Started with Create Svelte App
 
-This project was bootstrapped with [Create Solid App](https://github.com/solidjs/create-solid).
+This project was bootstrapped with [Create Svelte App](https://svelte.dev/tutorial/making-an-app).
 
 ```bash
-npx degit solidjs/templates/ts solid
+npm create vite@latest my-app -- --template svelte
 ```
 
-### `npm start`
+### `npm run dev`
 
 ```bash
-npm start
+npm run dev
 ```
 
 Runs the app in the development mode.
 
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
