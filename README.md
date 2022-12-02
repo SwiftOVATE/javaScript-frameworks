@@ -1,35 +1,46 @@
-# JavaScript Frameworks
+# Astro Starter Kit: Minimal
 
-This is a list of JavaScript frameworks. It is not meant to be exhaustive, but rather a starting point for people looking for a framework to use.
-
-
-### To get your framework listed
-
-1. Fork this repo
-
-
-2. Clone your fork
-
-```bash
-git clone https://github.com/firenudge-io/JavaScript-Framework.git
+```
+npm create astro@latest -- --template minimal
 ```
 
-3. Move to your required framework directory
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/s/github/withastro/astro/tree/latest/examples/minimal)
 
-```bash
-git checkout -q {framework}
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+
+## 🚀 Project Structure
+
+Inside of your Astro project, you'll see the following folders and files:
+
+```
+/
+├── public/
+├── src/
+│   └── pages/
+│       └── index.astro
+└── package.json
 ```
 
-4. In the project directory, you can run following commands based on your **OS** to *uninitiate* the project.:
+Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-### `npm run win`
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
-```bash
-npm run win
-```
+Any static assets, like images, can be placed in the `public/` directory.
 
-### `npm run linux`
+## 🧞 Commands
 
-```bash
-npm run linux
-```
+All commands are run from the root of the project, from a terminal:
+
+| Command                | Action                                           |
+| :--------------------- | :----------------------------------------------- |
+| `npm install`          | Installs dependencies                            |
+| `npm run dev`          | Starts local dev server at `localhost:3000`      |
+| `npm run build`        | Build your production site to `./dist/`          |
+| `npm run preview`      | Preview your build locally, before deploying     |
+| `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro --help` | Get help using the Astro CLI                     |
+
+## 👀 Want to learn more?
+
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
