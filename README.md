@@ -1,35 +1,19 @@
-# JavaScript Frameworks
+# Getting Started with Create React App
 
-This is a list of JavaScript frameworks. It is not meant to be exhaustive, but rather a starting point for people looking for a framework to use.
+This project was bootstrapped with [Create react App](https://github.com/facebook/create-react-app).
 
-
-### To get your framework listed
-
-1. Fork this repo
-
-
-2. Clone your fork
+Build with `Tailwind`
 
 ```bash
-git clone https://github.com/firenudge-io/JavaScript-Framework.git
+npx create-react-app my-app --template typescript
 ```
 
-3. Move to your required framework directory
+### `npm start`
 
 ```bash
-git checkout -q {framework}
+npm start
 ```
 
-4. In the project directory, you can run following commands based on your **OS** to *uninitiate* the project.:
+Runs the app in the development mode.
 
-### `npm run win`
-
-```bash
-npm run win
-```
-
-### `npm run linux`
-
-```bash
-npm run linux
-```
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
