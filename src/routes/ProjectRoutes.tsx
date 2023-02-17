@@ -3,11 +3,23 @@ import { BrowserRouter, Routes } from "react-router-dom"
 import { ProjectFooter } from "../components/ProjectFooter"
 import { ProjectNavbar } from "../components/ProjectNavbar"
 import { Home } from "../pages/Home"
-import { About } from "../pages/About"
+import { Gradients } from "../pages/Gradients"
+import { ScrollTop } from "../hooks/ScrollTop"
+import { Parallax } from "../pages/Parallax"
+import { FullPage } from "../pages/FullPage"
 
-const Route_Items = [
+export const Route_Items = [
     { name: "Home", link: "/PROJECT", element: <Home /> },
-    { name: "About", link: "/PROJECT/About", element: <About /> },
+    { name: "Gradients", link: "/PROJECT/Gradients", element: <Gradients /> },
+    { name: "Parallax", link: "/PROJECT/Parallax", element: <Parallax /> },
+    { name: "FullPage", link: "/PROJECT/FullPage", element: <FullPage /> },
+]
+
+export const Nav_Items = [
+    { name: "Home", link: "/PROJECT" },
+    { name: "Gradients", link: "/PROJECT/Gradients" },
+    { name: "Parallax", link: "/PROJECT/Parallax" },
+    { name: "FullPage", link: "/PROJECT/FullPage" },
 ]
 
 export const ProjectRoutes = () => {
@@ -15,6 +27,7 @@ export const ProjectRoutes = () => {
         <div>
             <BrowserRouter>
                 <ProjectNavbar />
+
                 <Routes>
                     {
                         Route_Items.map((item, index) => {
@@ -27,7 +40,10 @@ export const ProjectRoutes = () => {
                         })
                     }
                 </Routes>
+
                 <ProjectFooter />
+                <ScrollTop col={"green"} />
+
             </BrowserRouter>
         </div>
     )

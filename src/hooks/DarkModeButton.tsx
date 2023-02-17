@@ -1,4 +1,3 @@
-import { Navbar } from "flowbite-react/lib/esm/components";
 import { useEffect, useState } from "react";
 import { DarkModeSwitch } from "react-toggle-dark-mode";
 
@@ -26,12 +25,10 @@ export default function DarkModeButton() {
 
 
     return (
-        <Navbar.Link>
-            <DarkModeSwitch
-                checked={darkSide}
-                onChange={toggleDarkMode}
-                size={30}
-            />
-        </Navbar.Link>
+        <DarkModeSwitch
+            checked={darkSide}
+            onChange={toggleDarkMode}
+            size={30}
+        />
     );
 }

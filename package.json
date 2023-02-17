@@ -1,7 +1,7 @@
 {
-  "name": "project",
+  "name": "react-app",
   "version": "0.1.0",
-  "description": "Built from https://github.com/firenudge-io/JavaScript-Frameworks",
+  "description": "Generated from https://github.com/Self-Generator/javaScript-frameworks",
   "homepage": "https://ORG.github.io/PROJECT",
   "private": true,
   "dependencies": {

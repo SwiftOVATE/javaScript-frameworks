@@ -6,9 +6,16 @@ module.exports = {
     'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'
   ],
   theme: {
-    extend: {},
-  },
-  plugins: [
-    require('flowbite/plugin')
-  ]
+    extend: {
+      colors: {
+        'custom-blue': {
+          50: '#007CF0',
+          100: '#00DFD8'
+        }
+      },
+      plugins: [
+        require('flowbite/plugin')
+      ]
+    }
+  }
 }
